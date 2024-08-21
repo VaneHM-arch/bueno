@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(185, 228, 26);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 105px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(75, 220, 172);
+    font-family: cursive;
+}
+p{
+    font-size: 20px;
+    color: rgb(16, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Courgette", cursive;
+}
+#home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 100px;
+    margin: 10px;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 100px;
+    margin: 10px;
+}
+#incripciones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#incripciones iframe{
+    padding: 100px;
+    margin: 10px;
+}
+#novedades{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#novedades iframe{
+    padding: 100px;
+    margin: 10px;
+}
+#alumin{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#alumin iframe{
+    padding: 100px;
+    margin: 10px;
+}
+.contenedoruno{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(163, 162, 160);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caja img{
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 12px;
+}
